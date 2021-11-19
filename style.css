@@ -1,0 +1,177 @@
+:root{
+    --firts-color: #020011C2;
+
+}
+.section{
+    margin-top: 23rem;
+}
+
+main{
+    margin-top: 13.75rem;
+}
+#header .navbar{
+    margin-top: 1.81rem;
+    position: static;
+    height: 3.5rem;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    
+}
+#header .navbar-brand{
+    font-size: 1.5rem;
+}
+p{
+    font: 400 1rem 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+ 
+#header nav a{
+    font: 500 0.875rem 'Poppins', sans-serif;
+    color:white;
+}
+
+#header .account-btn{
+    border: solid 1.5px #777F96; 
+    height: 3.5rem;
+    
+    padding:1.18rem 1.43rem;
+    display: flex;
+    align-items: center;
+
+    
+
+    border-radius: 4px;
+
+    
+}
+#header a.account-btn {
+    font: 600 0.875rem 'Inter', sans-serif;
+    
+}
+
+#header .nav-link{
+    margin: 0 1.5rem;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(135deg, hsl(247, 100%, 3%, 0.65) 5%, hsl(229, 48%, 17%, 0.65) 35%, rgba(21, 31, 66, 0.527) 46%, hsl(225, 56%, 19%, 0.65) 70%, hsl(221, 100%, 6%, 0.65) 100%),
+                     url("assets/background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #f0f0f3;
+    
+}
+
+/* ========= HOME =============== */
+
+
+#home .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home .text .title{
+    font: 700 3.875rem 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+#home .text .subtitle{
+    font: 500 1.125rem 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+#home .d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+#home .form-control{
+    width: 30rem;
+    height: 4.62rem;
+    padding: 0 15rem 0 2.5rem;
+    font: 500 1rem 'Inter', sans-serif;
+
+}
+#home .form-control::placeholder{
+    font: 500 1rem 'Inter', sans-serif;
+    
+}
+#home .btn{
+    font: 600 1rem 'Inter', sans-serif;
+    color: white;
+    background: #34A5E4;
+    padding:1.68rem 3rem ;
+}
+
+#home .fas {
+    font-size: 1rem;
+    color: #AFAEB4;
+    position: relative;
+    left: 2rem;
+}
+
+
+
+
+/* ========= TRAVEL =============== */
+
+
+#travel .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#travel .subtitle{
+    text-align: center;
+}
+#travel h2{
+    font: 700 2.81rem 'Poppins',sans-serif;
+    color: #1E2A39;
+}
+#travel p.subtitle{
+    font: 400 1rem 'Poppins',sans-serif;
+    color: #5C6272;
+    text-align: center;
+}
+
+#travel .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+#travel .cards .card-dest{
+    width: 20rem;
+    height: 19rem;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 1px 1px 35px #ececec;
+    font: 400 1rem 'Poppins',sans-serif;
+    
+    padding: 2rem;
+}
+#travel i.fas.fa-route{
+    padding: .8rem;
+    font-size: 3rem;
+    color: #34A5E4;
+
+    border-radius: .5rem;
+    background-color: white;
+
+    box-shadow: 1px 1px 15rem rgb(238, 238, 238);
+}

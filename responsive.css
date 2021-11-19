@@ -1,0 +1,9 @@
+@media only screen and (min-width 690) {
+    i.fas.fa-route{
+        width: 20rem;
+        height: 3rem;
+        padding: 0 15rem 0 2.5rem;
+        font: 500 1rem 'Inter', sans-serif;
+    }
+    
+}

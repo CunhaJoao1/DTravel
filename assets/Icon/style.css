@@ -1,0 +1,198 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?k6zd4d');
+  src:  url('fonts/icomoon.eot?k6zd4d#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?k6zd4d') format('truetype'),
+    url('fonts/icomoon.woff?k6zd4d') format('woff'),
+    url('fonts/icomoon.svg?k6zd4d#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-git:before {
+  content: "\e900";
+}
+.icon-linkedin .path1:before {
+  content: "\e901";
+  color: rgb(48, 120, 240);
+}
+.icon-linkedin .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(244, 244, 244);
+}
+.icon-insta .path1:before {
+  content: "\e903";
+  color: rgb(0, 0, 0);
+}
+.icon-insta .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-insta .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-insta .path4:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-face .path1:before {
+  content: "\e907";
+  color: rgb(56, 63, 135);
+}
+.icon-face .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(244, 244, 244);
+}
+.icon-arrow:before {
+  content: "\e909";
+}
+.icon-map-pin:before {
+  content: "\e90a";
+}
+.icon-search:before {
+  content: "\e90b";
+}
+.icon-travel .path1:before {
+  content: "\e90c";
+  color: none;
+}
+.icon-travel .path2:before {
+  content: "\e90d";
+  margin-left: -1.5126953125em;
+  color: rgb(52, 165, 228);
+}
+.icon-travel .path3:before {
+  content: "\e90e";
+  margin-left: -1.5126953125em;
+  color: rgb(0, 122, 188);
+}
+.icon-travel .path4:before {
+  content: "\e90f";
+  margin-left: -1.5126953125em;
+  color: rgb(2, 55, 94);
+}
+.icon-travel .path5:before {
+  content: "\e910";
+  margin-left: -1.5126953125em;
+  color: rgb(5, 42, 96);
+}
+.icon-travel .path6:before {
+  content: "\e911";
+  margin-left: -1.5126953125em;
+  color: rgb(0, 122, 188);
+}
+.icon-travel .path7:before {
+  content: "\e912";
+  margin-left: -1.5126953125em;
+  color: rgb(255, 255, 255);
+}
+.icon-person-trave .path1:before {
+  content: "\e913";
+  color: rgb(52, 165, 228);
+}
+.icon-person-trave .path2:before {
+  content: "\e914";
+  margin-left: -0.9306640625em;
+  color: none;
+}
+.icon-person-trave .path3:before {
+  content: "\e915";
+  margin-left: -0.9306640625em;
+  color: rgb(19, 36, 80);
+}
+.icon-person-trave .path4:before {
+  content: "\e916";
+  margin-left: -0.9306640625em;
+  color: rgb(19, 36, 80);
+}
+.icon-person-trave .path5:before {
+  content: "\e917";
+  margin-left: -0.9306640625em;
+  color: rgb(19, 36, 80);
+}
+.icon-person-trave .path6:before {
+  content: "\e918";
+  margin-left: -0.9306640625em;
+  color: rgb(19, 36, 80);
+}
+.icon-person-trave .path7:before {
+  content: "\e919";
+  margin-left: -0.9306640625em;
+  color: rgb(19, 36, 80);
+}
+.icon-pin-figma .path1:before {
+  content: "\e91a";
+  color: rgb(10, 142, 216);
+}
+.icon-pin-figma .path2:before {
+  content: "\e91b";
+  margin-left: -1.0205078125em;
+  color: rgb(0, 105, 164);
+}
+.icon-pin-figma .path3:before {
+  content: "\e91c";
+  margin-left: -1.0205078125em;
+  color: rgb(2, 55, 93);
+}
+.icon-pin-figma .path4:before {
+  content: "\e91d";
+  margin-left: -1.0205078125em;
+  color: rgb(52, 165, 228);
+}
+.icon-pin-figma .path5:before {
+  content: "\e91e";
+  margin-left: -1.0205078125em;
+  color: rgb(255, 255, 255);
+}
+.icon-pin-figma .path6:before {
+  content: "\e91f";
+  margin-left: -1.0205078125em;
+  color: rgb(10, 142, 216);
+}
+.icon-pin-figma .path7:before {
+  content: "\e920";
+  margin-left: -1.0205078125em;
+  color: rgb(0, 105, 164);
+}
+.icon-pin-figma .path8:before {
+  content: "\e921";
+  margin-left: -1.0205078125em;
+  color: rgb(2, 55, 93);
+}
+.icon-pin-figma .path9:before {
+  content: "\e922";
+  margin-left: -1.0205078125em;
+  color: rgb(52, 165, 228);
+}
+.icon-pin-figma .path10:before {
+  content: "\e923";
+  margin-left: -1.0205078125em;
+  color: rgb(255, 255, 255);
+}
+.icon-pin-figma .path11:before {
+  content: "\e924";
+  margin-left: -1.0205078125em;
+  color: none;
+}
